@@ -10,7 +10,7 @@ This Application used the following techstacks :-
 
 The purpose of this application is to catpture the the movements of animals from one location to another
 
-**Dataset Used** :- 
+**Datasets Used** :- 
 1) Populations Data - Consisting of a Premise Id which refers to a farm and the current populations of animals in it
 2) Movements Data - Consisting of various transfers that have been performed. This consists of Original Premise Id (ID of source farm), Destination Premise ID (ID of destination farm), number of animals moved, their timestamp, species of animals, account_company doing the transfers
 3) Farms Data - This is the master dataset, the premise IDs used above are referenced here. This additionally captures all the information of a particular farm like its Name, Address, City, State, Latitudes, Longitudes and postal code. 
