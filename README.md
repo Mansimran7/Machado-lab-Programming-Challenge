@@ -54,3 +54,13 @@ Next is the UI components which are written in React, JavaScript, Bootstrap and 
 2) Run the Application
 3) Open VSCode and cd to "pc_fe" folder. Do npm install and npm start. 
 4) Use Postman to test automation script
+
+**Future Work**
+1) I had initially planned to add a Zuul Gateway. In this setup gateway doesnt add much value because of few services, but it does come in handy for load balancing and routing when there are multiple services
+2) The timestamps added currently are hardcoded, they could be updated to reflect current time and not needed to be added manually
+3) I can understand my UI is a little basic, as I had spent a lot of time on backend and data. Adding the JWT Tokens, automation script and exception handling took some time. Hence, I believe the UI could be significantly improved. 
+4) Dockerize the entire application 
+5) Reflect the latitudes and logitudes on Maps in React. 
+The last point especially I had thought I'll add in the end but because of time constraints I couldn't add this and other points. 
+
+Thank You!
