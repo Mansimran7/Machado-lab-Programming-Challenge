@@ -1,0 +1,30 @@
+.Data {
+    text-align: center;
+    margin: 20px;
+    flex-direction: row;
+  }
+
+.table {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+.table1{
+    margin: 10px;
+    width: 20%;
+    overflow: scroll;
+    height: 570px;
+  }
+  .table2
+  {
+    margin: 10px;
+    width: 80%;
+    overflow: scroll;
+    height: 570px;
+  }
+  .form-group
+  {
+    margin: 5%;
+  }
