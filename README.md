@@ -15,9 +15,9 @@ The purpose of this application is to catpture the the movements of animals from
 2) Movements Data - Consisting of various transfers that have been performed. This consists of Original Premise Id (ID of source farm), Destination Premise ID (ID of destination farm), number of animals moved, their timestamp, species of animals, account_company doing the transfers
 3) Farms Data - This is the master dataset, the premise IDs used above are referenced here. This additionally captures all the information of a particular farm like its Name, Address, City, State, Latitudes, Longitudes and postal code. 
 
-As you can see the dataset described above has slight modifications to the given dataset. We have created a new Farm Table which is done to avoid **redundancy** in the movememts table which previously captures information about source and destination farms for every movement. This Farm information has been moved to a separate table. For your reference I have also pushed this modified Dataset in this repository.  
+As you can see the dataset described above has slight modifications to the given dataset. We have created a new Farm Table which is done to avoid **redundancy** in the movememts table which previously captures information about source and destination farms for every movement. This Farm information has been moved to a separate table. For your reference I have also pushed this modified Dataset in this repository.  (Refer *db-scripts.psql* script to run the database
 
-**Backend Services** :- (Refer "programming-challenge" folder)
+**Backend Services** :- (Refer **"programming-challenge"** folder)
 
 Next up is our Backend API services. The APIs are written in Java and Springboot. Below are some of the endpoints 
 
@@ -33,7 +33,7 @@ Next up is our Backend API services. The APIs are written in Java and Springboot
 
 Next, as an additional task I have also added an automation script. This script is written in Javascript and needs to be run in a Postman environment. In Postman under pre request scripts, this script can be copy pasted. You can add any dummy URL at the top to run the request. This script will run all the essential components. First it would run the /authenticate end point and generate a the token then run all the 3 GET requests and then run the POST request to add a new movement record. 
 
-**FrontEnd Services** :- 
+**FrontEnd Services** :-  (Refer **"pc-fe"** folder)
 
 Next is the UI components which are written in React, JavaScript, Bootstrap and CSS. Below is a description about each component. 
 1) Authenticate User - This should be used for the first time time to get a JWT token as without that no other component would be run and at the backend you would be getting 403 Forbidden error message without the token
