@@ -17,7 +17,7 @@ The purpose of this application is to catpture the the movements of animals from
 
 As you can see the dataset described above has slight modifications to the given dataset. We have created a new Farm Table which is done to avoid **redundancy** in the movememts table which previously captures information about source and destination farms for every movement. This Farm information has been moved to a separate table. For your reference I have also pushed this modified Dataset in this repository.  
 
-**Backend Services** :-
+**Backend Services** :- (Refer "programming-challenge" folder)
 
 Next up is our Backend API services. The APIs are written in Java and Springboot. Below are some of the endpoints 
 
@@ -45,5 +45,12 @@ Next is the UI components which are written in React, JavaScript, Bootstrap and 
 2) Maven - Once installed you can check the version with "mvn -v"
 3) PostgreSQL and PgAdmin - The links to install them are https://www.postgresql.org/download/ & https://www.pgadmin.org/download/
 4) Node.js is also required for all the Front End functionalities, Once installed check the version with "node -v" &  "npm -v"
-5) A IDE to run our backend services (IntelliJ Ultimate / Eclipse / Spring Tool Suite)
+5) An IDE to run our backend services (IntelliJ Ultimate / Eclipse / Spring Tool Suite)
 6) Postman to run our backend queries & run our automation scripts - Link to Download (https://www.postman.com/downloads/)
+7) An IDE to run the UI code eg VS Code. 
+
+**How to run**
+1) Once Intellij is installed. Open the "programming-challenge" folder. make sure your JDK is set to 1.8 and you have enabled annotations in Project Settings
+2) Run the Application
+3) Open VSCode and cd to "pc_fe" folder. Do npm install and npm start. 
+4) Use Postman to test automation script
