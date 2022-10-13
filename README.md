@@ -32,3 +32,16 @@ Next up is our Backend API services. The APIs are written in Java and Springboot
 **Automation Script** :- 
 
 Next, as an additional task I have also added an automation script. This script is written in Javascript and needs to be run in a Postman environment. In Postman under pre request scripts, this script can be copy pasted. You can add any dummy URL at the top to run the request. This script will run all the essential components. First it would run the /authenticate end point and generate a the token then run all the 3 GET requests and then run the POST request to add a new movement record. 
+
+**FrontEnd Services** :- 
+
+Next is the UI components which are written in React, JavaScript, Bootstrap and CSS. Below is a description about each component. 
+1) Authenticate User - This should be used for the first time time to get a JWT token as without that no other component would be run and at the backend you would be getting 403 Forbidden error message without the token
+2) Data - Once you have got the JWT Token you could add it in the textbox on the Data tab and check out the current records of populations and movements
+3) Add Records - Here with your JWT Token yo could add records for the next movement. This is the /movement (POST) request that will run in the background. Once the API run is successful you would see a message saying records are added. Then you can head back to the Data Tab and see your updated records in the movement table and the population table. 
+
+**Pre-requisites to run the project**
+1) Require Java (Java 1.8) - Once installed you can check the version with "java -version"
+2) 
+3) 
+4)
