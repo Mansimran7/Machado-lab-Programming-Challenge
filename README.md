@@ -42,6 +42,8 @@ Next is the UI components which are written in React, JavaScript, Bootstrap and 
 
 **Pre-requisites to run the project**
 1) Require Java (Java 1.8) - Once installed you can check the version with "java -version"
-2) 
-3) 
-4)
+2) Maven - Once installed you can check the version with "mvn -v"
+3) PostgreSQL and PgAdmin - The links to install them are https://www.postgresql.org/download/ & https://www.pgadmin.org/download/
+4) Node.js is also required for all the Front End functionalities, Once installed check the version with "node -v" &  "npm -v"
+5) A IDE to run our backend services (IntelliJ Ultimate / Eclipse / Spring Tool Suite)
+6) Postman to run our backend queries & run our automation scripts - Link to Download (https://www.postman.com/downloads/)
